@@ -62,60 +62,6 @@ var img = document.createElement("img");
 
 
 
-// var output = document.getElementById("output");
-// var form = document.getElementById("formid");
-// var nameInput = document.getElementById("name");
-// var collegeInput = document.getElementById("college");
-// var locInput = document.getElementById("loc");
-// var picShow = document.querySelector(".picShow");
-// var picInput = document.getElementById("pic");
-
-// picInput.addEventListener("change", function(event) {
-// var reader = new FileReader();
-// reader.onload = function() {
-// picShow.src = reader.result;
-// picShow.style.height = "100px"; // Set the desired height
-// picShow.style.width = "100px"; // Set the desired width
-// }
-// reader.readAsDataURL(event.target.files[0]);
-// });;
-
-// form.addEventListener("submit", generateCard);
-
-// function generateCard(event) {
-//     event.preventDefault();
-//     var outpuTPara = document.createElement("p");
-//     var outpUTdiv = document.createElement("div");
-//     var forPic = document.createElement("div");
-//     var conTEnt = document.createElement("div");
-//     output.innerHTML = "";
-//     output.appendChild(outpuTPara);
-//     output.appendChild(outpUTdiv);
-//     outpUTdiv.appendChild(forPic);
-//     outpUTdiv.appendChild(conTEnt);
-//     outpuTPara.innerHTML = "Generated ID Card";
-//     outpuTPara.classList.add("outpuTPara");
-//     outpUTdiv.classList.add("outpUTdiv");
-//     forPic.classList.add("forPic");
-//     conTEnt.classList.add("conTEnt");
-    
-//     var conTEnt1 = document.createElement("div");
-//     var conTEnt2 = document.createElement("div");
-//     var conTEnt3 = document.createElement("div");
-//     conTEnt.appendChild(conTEnt1);
-//     conTEnt.appendChild(conTEnt2);
-//     conTEnt.appendChild(conTEnt3);
-//     conTEnt1.classList.add("conTEnt1");
-//     conTEnt2.classList.add("conTEnt2");
-//     conTEnt3.classList.add("conTEnt3");
-//     conTEnt1.innerHTML = "Name: " + nameInput.value;
-//     conTEnt2.innerHTML = "College Name: " + collegeInput.value;
-//     conTEnt3.innerHTML = "Location: " + locInput.value;
-    
-//     var img = document.createElement("img");
-//     img.src = picShow.src;
-//     forPic.appendChild(img);
-// }
 
 
 
